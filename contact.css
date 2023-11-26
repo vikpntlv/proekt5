@@ -1,0 +1,93 @@
+/* Додайте цей код до вашого style.css або в окремий файл */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #FFA500;
+    margin: 0;
+}
+
+header {
+    background-color: #FFA500;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #FFA500;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact-container h2 {
+    color: #000;
+}
+
+.contact-container p {
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-container label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.contact-container input[type="submit"] {
+    background-color: #000;
+    color: #FFA500;
+    cursor: pointer;
+}
+
+.contact-container input[type="submit"]:hover {
+    background-color: #FFA500;
+    color: #000;
+}
+
+footer {
+    background-color: #FFA500;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
